@@ -4,7 +4,7 @@ class Message {
         this.created = created;
     }
     toString() {
-        return 'Message\'s toString';
+        return `Message's toString`;
     }
 
 }
