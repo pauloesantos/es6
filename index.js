@@ -3,8 +3,14 @@ class Message {
         this.text = text;
         this.created = created;
     }
+    get created() {
+        return this._created;
+    }
+    set created(created) {
+        this._created = created;
+    }
     toString() {
-        return `Message creadted at: ${this.created}
+        return `Message created at: ${this._created}
          - Text #${this.text}`;
     }
 
