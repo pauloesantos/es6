@@ -4,7 +4,8 @@ class Message {
         this.created = created;
     }
     toString() {
-        return `Message's toString`;
+        return `Message creadted at: ${this.created}
+         - Text #${this.text}`;
     }
 
 }
