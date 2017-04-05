@@ -24,3 +24,6 @@ console.log(textMessage);
 
 console.log(emptyMessage + '');
 console.log(textMessage + '');
+
+console.log(String(emptyMessage));
+console.log(String(textMessage));
